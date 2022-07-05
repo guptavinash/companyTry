@@ -1,0 +1,34 @@
+1. List total number of fours, sixes, total score with respect to team and year.    
+ 
+Output Expected:     YEAR TEAM_NAME FOURS_COUNT SIXES_COUNT TOTAL_SCORE 
+
+2. Find the team name which has Highest Net Run Rate with respect to year.  
+   Net Run Rate = (Total Runs Scored / Total Overs Faced) 
+ 
+-------------------------------------------------------------------------------
+
+Instruction
+
+Your service class will contain these method 
+
+For Qus NO.1 
+  public List<Map<String,Object>) getScoreDetails(List<Delivery> Deliveries,List<Match> matches)
+{
+  Map contain 5 keys
+   1.YEAR 
+   2.TEAM_NAME 
+   3.FOURS_COUNT 
+   4.SIXES_COUNT 
+   5.TOTAL_SCORE 
+ 
+}
+
+on based of year and team we need to find the details....
+For Qus No.2 
+   public List<Map<String ,Object>> getHighestRunRateTeamName(List<Delivery> Deliveries,List<Match> matches)
+      {
+  Map contain 3 keys
+   1.TEAM_NAME
+   2.HIGHEST_NET_RUN_RATE
+   3.YEAR 
+}
